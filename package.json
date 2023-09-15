@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nostr-dev-kit/ndk": "^0.8.21-1",
+    "@types/dotenv": "^8.2.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  }
+}
